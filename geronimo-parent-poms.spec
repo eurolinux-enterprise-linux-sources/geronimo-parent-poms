@@ -1,6 +1,6 @@
 Name:		geronimo-parent-poms
 Version:	1.6
-Release:	15%{?dist}
+Release:	16%{?dist}
 Summary:	Parent POM files for geronimo-specs
 Group:		Development/Tools
 License:	ASL 2.0
@@ -40,6 +40,9 @@ cp -p %{SOURCE1} LICENSE
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.6-16
+- Mass rebuild 2013-12-27
+
 * Mon Apr 29 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.6-15
 - Remove maven-idea-plugin
 
